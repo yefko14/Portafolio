@@ -975,6 +975,26 @@ opacity: 0.8;
   --swiper-theme-color: fff;
 }
 
+.portfolio-details .responsive{
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+}
+
+.portfolio-details .responsive-video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.portfolio-details .responsive-video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
